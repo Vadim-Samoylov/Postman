@@ -1,0 +1,176 @@
+{
+	"id": "b858e69b-fb4f-4696-8305-c0616d00cafd",
+	"name": "HW#1",
+	"timestamp": "2023-06-06T16:37:39.391Z",
+	"collection_id": "23603943-46d838fa-243f-45c7-b0d9-d178bc4d1a31",
+	"folder_id": 0,
+	"environment_id": "23603943-c4efa0d9-0d92-4e98-8902-d3de09c80171",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-06T16:37:37.528Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0f3bbee6-a35c-40bc-846e-d801c021f75c",
+			"name": "get_method",
+			"url": "http://162.55.220.72:5005//get_method?name=Vadim&age=28",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				141
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d0dcc39-a94a-485f-97c8-2a2258e653f5",
+			"name": "/user_info_3",
+			"url": "http://162.55.220.72:5005//user_info_3",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				149
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5fc5f986-8d78-469c-8d5d-f2a86c2463b9",
+			"name": "object_info_1",
+			"url": "http://162.55.220.72:5005//object_info_1?name=Vadim&age=29&weight=74",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				153
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "11747791-da23-422b-9290-f7483e72585d",
+			"name": "object_info_2",
+			"url": "http://162.55.220.72:5005//object_info_2?name=Vadim&age=29&salary=1000",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				143
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fdf31429-bd79-4ca3-82f2-7070ce3d8975",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005//object_info_3?name=Vadim&age=29&salary=1000",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				140
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dcce74e6-b399-468b-a819-2da80efe6381",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005//object_info_4?name=Vadim&age=29&salary=1000",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				141
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4403655-bb11-4299-97b7-9327db3611f2",
+			"name": "user_info_2",
+			"url": "http://162.55.220.72:5005//user_info_2?name=Vadim&age=29&salary=1000",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				148
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1015,
+	"collection": {
+		"requests": [
+			{
+				"id": "0f3bbee6-a35c-40bc-846e-d801c021f75c",
+				"method": "GET"
+			},
+			{
+				"id": "7d0dcc39-a94a-485f-97c8-2a2258e653f5",
+				"method": "POST"
+			},
+			{
+				"id": "5fc5f986-8d78-469c-8d5d-f2a86c2463b9",
+				"method": "GET"
+			},
+			{
+				"id": "11747791-da23-422b-9290-f7483e72585d",
+				"method": "GET"
+			},
+			{
+				"id": "fdf31429-bd79-4ca3-82f2-7070ce3d8975",
+				"method": "GET"
+			},
+			{
+				"id": "dcce74e6-b399-468b-a819-2da80efe6381",
+				"method": "GET"
+			},
+			{
+				"id": "d4403655-bb11-4299-97b7-9327db3611f2",
+				"method": "POST"
+			}
+		]
+	}
+}

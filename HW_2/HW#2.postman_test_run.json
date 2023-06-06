@@ -1,0 +1,264 @@
+{
+	"id": "f91446f3-7dae-4ed8-98b2-58347cb84e44",
+	"name": "HW#2",
+	"timestamp": "2023-06-06T16:37:11.350Z",
+	"collection_id": "23603943-299783d4-3f6b-4e24-bd10-7c94b78df0a8",
+	"folder_id": 0,
+	"environment_id": "23603943-c4efa0d9-0d92-4e98-8902-d3de09c80171",
+	"totalPass": 24,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-06-06T16:37:09.910Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7903f886-95dc-4cdf-a0b2-c3f2657b5443",
+			"name": "right string",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body have right string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body have right string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body have right string": true
+				}
+			]
+		},
+		{
+			"id": "499be32e-8ac0-4493-9a75-546241afa203",
+			"name": "user_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Vadim&age=28&salary=1000",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check salary": true,
+				"Check age qsp": true,
+				"Check salary qsp": true,
+				"Check u_salary_1_5_y": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age qsp": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary qsp": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_1_5_y": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check salary": true,
+					"Check age qsp": true,
+					"Check salary qsp": true,
+					"Check u_salary_1_5_y": true
+				}
+			]
+		},
+		{
+			"id": "17837a28-d2c9-42b8-aef8-3e2de51aa18d",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Vadim&age=28&salary=1000",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check salary": true,
+				"Check that param 'name' exists in object 'dog'": true,
+				"Check that parametr 'age' exists in object 'dog'": true,
+				"Check that parametr 'Luky' exists in object 'name'": true,
+				"Check that parametr 'age' exists in object '4'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that param 'name' exists in object 'dog'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that parametr 'age' exists in object 'dog'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that parametr 'Luky' exists in object 'name'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check that parametr 'age' exists in object '4'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check salary": true,
+					"Check that param 'name' exists in object 'dog'": true,
+					"Check that parametr 'age' exists in object 'dog'": true,
+					"Check that parametr 'Luky' exists in object 'name'": true,
+					"Check that parametr 'age' exists in object '4'": true
+				}
+			]
+		},
+		{
+			"id": "78386722-70f8-4c75-b51a-f7a07cb636dc",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Vadim&age=28&salary=1000",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check 0 param salary": true,
+				"Check 1 param salary": true,
+				"Check 2 param salary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check 0 param salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check 1 param salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check 2 param salary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check 0 param salary": true,
+					"Check 1 param salary": true,
+					"Check 2 param salary": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 572,
+	"collection": {
+		"requests": [
+			{
+				"id": "7903f886-95dc-4cdf-a0b2-c3f2657b5443",
+				"method": "GET"
+			},
+			{
+				"id": "499be32e-8ac0-4493-9a75-546241afa203",
+				"method": "GET"
+			},
+			{
+				"id": "17837a28-d2c9-42b8-aef8-3e2de51aa18d",
+				"method": "GET"
+			},
+			{
+				"id": "78386722-70f8-4c75-b51a-f7a07cb636dc",
+				"method": "GET"
+			},
+			{
+				"id": "ff2c7850-0a8b-434e-8daf-545d742f76bc",
+				"method": "POST"
+			}
+		]
+	}
+}

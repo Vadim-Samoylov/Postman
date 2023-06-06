@@ -1,0 +1,317 @@
+{
+	"id": "545a5dae-fd05-46d3-b408-eeb740c2c242",
+	"name": "HW#3",
+	"timestamp": "2023-06-06T16:37:55.353Z",
+	"collection_id": "23603943-f7b455ca-f170-4b3f-b841-b3f3f4ab482a",
+	"folder_id": 0,
+	"environment_id": "23603943-c4efa0d9-0d92-4e98-8902-d3de09c80171",
+	"totalPass": 21,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-06T16:37:53.133Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bb1039a3-613e-41f1-bec8-cf1198af6afa",
+			"name": "the FST",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				162
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f9959e85-6357-47a9-96cb-4d1d7ecf6c62",
+			"name": "the Scnd",
+			"url": "http://162.55.220.72:5005//user_info",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Проверить схему": true,
+				"Check salary_after_6m": true,
+				"Check salary_after_12m": true,
+				"Check salary_after_1_5_y": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Проверить схему": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_after_6m": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_after_12m": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_after_1_5_y": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Проверить схему": true,
+					"Check salary_after_6m": true,
+					"Check salary_after_12m": true,
+					"Check salary_after_1_5_y": true
+				}
+			]
+		},
+		{
+			"id": "340b1caa-bac3-4c1e-97cd-9ddc90e30732",
+			"name": "The Thrd",
+			"url": "http://162.55.220.72:5005//new_data",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check structure": true,
+				"Check salary_1": true,
+				"Check salary_2": true,
+				"Check salary_3": true,
+				"check salary[0,1] below salary[2]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary_3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check salary[0,1] below salary[2]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check structure": true,
+					"Check salary_1": true,
+					"Check salary_2": true,
+					"Check salary_3": true,
+					"check salary[0,1] below salary[2]": true
+				}
+			]
+		},
+		{
+			"id": "1cdc0969-1ae8-4f96-b1d7-0ec04c21473e",
+			"name": "the Fr",
+			"url": "http://162.55.220.72:5005//test_pet_info",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check structure JSON": true,
+				"check coef DF": true,
+				"check coef DS": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check structure JSON": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check coef DF": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check coef DS": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check structure JSON": true,
+					"check coef DF": true,
+					"check coef DS": true
+				}
+			]
+		},
+		{
+			"id": "ab6cc5f4-ee16-4d08-91cc-53468f34869c",
+			"name": "the Fv",
+			"url": "http://162.55.220.72:5005//get_test_user",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code 200": true,
+				"check schema": true,
+				"check field.name= name.env": true,
+				"check field.age = age.req": true
+			},
+			"testPassFailCounts": {
+				"status code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check field.name= name.env": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check field.age = age.req": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"status code 200": true,
+					"check schema": true,
+					"check field.name= name.env": true,
+					"check field.age = age.req": true
+				}
+			]
+		},
+		{
+			"id": "59881190-1cce-48cf-9de9-ad66061d0f3c",
+			"name": "the SX",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 320,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				320
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d6751b23-7a41-4cb9-b3d5-9def75642f40",
+			"name": "The SVN",
+			"url": "http://54.157.99.22:80/curr_byn",
+			"time": 159,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code 200": true,
+				"Check JSON schema": true
+			},
+			"testPassFailCounts": {
+				"Status code 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check JSON schema": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				159
+			],
+			"allTests": [
+				{
+					"Status code 200": true,
+					"Check JSON schema": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1208,
+	"collection": {
+		"requests": [
+			{
+				"id": "bb1039a3-613e-41f1-bec8-cf1198af6afa",
+				"method": "POST"
+			},
+			{
+				"id": "f9959e85-6357-47a9-96cb-4d1d7ecf6c62",
+				"method": "POST"
+			},
+			{
+				"id": "340b1caa-bac3-4c1e-97cd-9ddc90e30732",
+				"method": "POST"
+			},
+			{
+				"id": "1cdc0969-1ae8-4f96-b1d7-0ec04c21473e",
+				"method": "POST"
+			},
+			{
+				"id": "ab6cc5f4-ee16-4d08-91cc-53468f34869c",
+				"method": "POST"
+			},
+			{
+				"id": "59881190-1cce-48cf-9de9-ad66061d0f3c",
+				"method": "POST"
+			},
+			{
+				"id": "d6751b23-7a41-4cb9-b3d5-9def75642f40",
+				"method": "POST"
+			}
+		]
+	}
+}
